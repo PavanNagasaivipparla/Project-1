@@ -1,0 +1,96 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <style>
+            body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(sty.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+            body{
+                background-color: blue;
+                color:orangered;
+                text-align: center;
+            }
+            nav {
+            background-color:yellowgreen;
+            color:blue;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        nav :hover{
+            background-color: orangered;
+            color:greenyellow;
+        }
+        @media screen and (min-width:320px )  {
+
+body {
+     background-color:red;
+}
+}
+@media Screen and (min-width:768px) and (max-width:1024px){
+body {
+     background-color: greenyellow;
+}
+} 
+
+@media Screen and (min-width:1224px) {
+body {
+     background-color: yellow;
+}
+}
+@media Screen and (min-width:1824px) {
+body {
+     background-color: blueviolet;
+}
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Reg.html">Register</a></li>
+                <li><a href="Login.html">LoginPage</a></li>
+                <li><a href="Services.html">Services</a></li>
+                <li><a href="ContactUs.html">Contactus</a></li>
+            </ul>
+        </nav>
+        <div class="bg">
+        <h1 style="color:orchid">Home Page</h1>
+        <p>This is Home Page it tells about a simple website...... </p>
+        <p>I n this  can be learn a lot of things
+                manly this website tels some information.....<mark>ThankU...... </mark></p>
+                <form action="AboutUs.html">
+                    <button>Next</button>
+                </form>
+    </body>
+</div>
+</html>
