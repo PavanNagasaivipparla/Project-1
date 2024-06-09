@@ -1,0 +1,84 @@
+<html>
+    <head>
+        <title> Contact Us </title>
+        <style>
+            body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(sty.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+            h1{
+                color:blue;
+            }
+            h3{
+                color:rgb(22, 20, 6);
+                text-align: end;
+                font-size: xx-large;
+            }
+            body{
+                background-color: aqua;
+                color:rgb(218, 194, 8);
+                text-align: center;
+                font-style: italic;
+            }
+            nav {
+            background-color:yellowgreen;
+            color:blue;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About</a></li>
+                <li><a href="Register.html">Register</a></li>
+                <li><a href="Login.html">LoginPage</a></li>
+                <li><a href="ContactUs.html">Contactus</a></li>
+            </ul>
+        </nav>
+        <div class="bg">
+        <h1>Contact Us</h1>
+        <form action="Thanku.html">
+            Full Name:<input type="text" name="Full Name" placeholder="Full Name"><br>
+            enter mobile no:<input type="tel"  name="personal" id="per1" pattern="[0-9]{10}" title=""the ten digits number placeholder="Mobile Number"><br>
+            Email:<input type="text" name="Email" placeholder="email"><br>
+            Message:<input type="textarea" placeholder="Message"><br>
+            <h2 style="color:yellow">Address::</h2>
+            <p>VUTUKURU ,KROSURU-522410,AMARAVATHI</p>
+            <textarea name="mytext" placeholder="Text...."></textarea>
+        </form>
+        <input type="Submit" value="Submit">
+        <h3>Thank You.....</h3>
+    </body>
+</div>
+</html>

@@ -1,0 +1,74 @@
+<html>
+   <head>
+      <title> login page </title>
+      <style>
+         body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(snow.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+         body{
+            background-color: orange;
+            color:yellow;
+            text-align: center;
+            font-style: italic;
+            background-image: url(sai.jpg);
+         }
+         nav {
+            background-color:yellowgreen;
+            color:blue;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+      </style>
+  </head>
+<body>
+   <nav>
+      <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="AboutUs.html">About</a></li>
+          <li><a href="Register.html">Register</a></li>
+          <li><a href="Login.html">LoginPage</a></li>
+          <li><a href="ContactUs.html">Contactus</a></li>
+      </ul>
+  </nav>
+   <div class="bg">
+  <h1>Login Page</h1>
+   <form action="Contactus.html">
+      FirstName : <input type="text" name="fname" placeholder="FirstName" autofocus> <br>
+      LastName : <input type="text" name="lname" placeholder="LsatName"> <br>
+      password:<input type="text" name="password" placeholder="password"><br>
+      <input type="submit" value="submit">
+      <input type="Reset" value="Reset">
+      <button>Next</button>
+</form>
+</body>
+</div>
+</html>

@@ -1,0 +1,91 @@
+<html>
+  <head>
+     <title> Register Page </title>
+     <style>
+      body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: url(dot2.jpg);
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+      body{
+         
+         background-color:greenyellow;
+         color: red;
+         text-align: center;
+         font-size:x-small;
+         font-style: italic;
+         background-image: url(buauty.jpg);
+      }
+      nav {
+            background-color:yellowgreen;
+            color:blue;
+            padding: 10px;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+     </style>
+
+  </head>
+ <body>
+   <nav>
+      <ul>
+          <li><a href="Home.html">Home</a></li>
+          <li><a href="AboutUs.html">About</a></li>
+          <li><a href="Register.html">Register</a></li>
+          <li><a href="Login.html">LoginPage</a></li>
+          <li><a href="ContactUs.html">Contactus</a></li>
+      </ul>
+  </nav>
+   <div class="bg">
+ <h1 style="color:yellow">Register Form<h1>
+    <form action="Loginpage1.html">
+      First Name:<input type:"text" name:"First Name" value:"uname" placeholder="enter your first name"><br>
+      Last Name:<input type:"text" name:"Last Name" value:"lname" placeholder="enter your last name"><br>
+      E-mail:<input type:"text" name:"E-mail" value:"email" placeholder="enter email"><br>
+	    Gender::<input type="radio" name="gender" value="male">Male<br>
+            <input type="radio" name="gender" value=female">Female<br>
+            <input type="radio" name="gender" value="other">Other<br>
+   B.Tech Degree::<select name:" B.Tech Degree">
+              <option>CSE</option>
+              <option>IT</option>
+              <option>AIDS</option>
+              <option>AIML</option>
+              <option>IOT</option>
+              <option>MECH</option>
+               <option>ECE</option>
+               <option>EEE</option>
+    </select><br><br>
+    Date::<input type="date"><br>
+     <input type="submit" value="submit">
+     <input type="Reset" value="Reset">
+     <button>Next</button>
+</form>
+</body>
+</div>
+</html>
